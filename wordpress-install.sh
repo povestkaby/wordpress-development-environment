@@ -7,4 +7,5 @@ wp plugin uninstall hello akismet --allow-root
 
 wp plugin install advanced-custom-fields advanced-nocaptcha-recaptcha buddypress classic-editor cloudflare cyr3lat redirection  wp-mail-logging wp-pagenavi yandexnews-feed-by-teplitsa wordpress-seo tiny-compress-images --activate --allow-root
 
+wp plugin install https://github.com/povestkaby/anspress/archive/master.zip --activate --allow-root
 echo !!development environment is ready!!

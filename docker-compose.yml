@@ -50,7 +50,6 @@ services:
       WORDPRESS_LANG: ${LANG}
     volumes:
       - ./wordpress:/var/www/html
-      - ./plugin:/var/www/html/wp-content/plugins/povestka
     logging:
       driver: "none"
     networks:
