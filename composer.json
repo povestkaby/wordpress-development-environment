@@ -1,0 +1,11 @@
+{
+    "name": "cema9/povestka.by",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Siamion Haurylenka",
+            "email": "2507496@gmail.com"
+        }
+    ],
+    "require": {}
+}
