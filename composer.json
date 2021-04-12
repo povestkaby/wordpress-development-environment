@@ -1,5 +1,5 @@
 {
-    "name": "cema9/povestka.by",
+    "name": "povestkaby/wordpress-development-environment",
     "type": "project",
     "authors": [
         {
@@ -7,5 +7,28 @@
             "email": "2507496@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+		"composer/installers": "~1.0",
+        "povestkaby/wordpress-theme": "^1"
+    },
+	"repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "povestkaby/wordpress-theme",
+        "version": "1.2.3",
+        "type": "wordpress-theme",
+        "source": {
+          "url": "https://github.com/povestkaby/wordpress-theme.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+    ],
+    "extra": {
+      "installer-paths": {
+          "theme": ["povestkaby/wordpress-theme"]
+      }
+    }
 }
